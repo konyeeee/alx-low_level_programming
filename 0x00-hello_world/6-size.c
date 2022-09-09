@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - print the size of many various types
+ * main - print the string in the put function
  *
  * Description: using the main function
  * this program prints "the size of various types on the computer it is compiled and run on
@@ -15,12 +15,13 @@ int main(void)
 	long long lli;
 	float f;
 
-	printf("Size of a char: %1d byte(s)\n", sizeof(c));
-	printf("Size of an int: %1d byte(s)\n", sizeof(i));
-	printf("Size of a long int: %1d byte(s)\n", sizeof(li));
-        printf("Size of a long long int: %1d byte(s)\n", sizeof(lli));
-        printf("Size of a float: %1d byte(s)\n", sizeof(f));
+	printf("Size of a char: %d byte(s)\n", sizeof(c));
+	printf("Size of an int: %d byte(s)\n", sizeof(i));
+	printf("Size of a long int: %d byte(s)\n", sizeof(li));
+        printf("Size of a long long int: %d byte(s)\n", sizeof(lli));
+        printf("Size of a float: %d byte(s)\n", sizeof(f));
         return (0);
 }	
+
 
 ~                                    	       
